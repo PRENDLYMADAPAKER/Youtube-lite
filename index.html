@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>YouTube Lite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>YouTube Lite 🎬</h1>
+  </header>
+
+  <main id="video-list">
+    <!-- Videos will load here from JS -->
+  </main>
+
+  <div id="player-modal" class="hidden">
+    <div id="player-container">
+      <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
+      <button onclick="closePlayer()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
